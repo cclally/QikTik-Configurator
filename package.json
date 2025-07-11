@@ -1,0 +1,25 @@
+{
+  "name": "qiktik-configurator",
+  "version": "1.0.0",
+  "description": "QikTik Configurator is a streamlined desktop app built with Python and Electron to configure and easily deploy MikroTik routers. Designed for field technicians, it simplifies configuration with a clean UI and fast scripting. Perfect for ISPs, MSPs, and networking pros on the go!",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cclally/QikTik-Configurator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cclally/QikTik-Configurator/issues"
+  },
+  "homepage": "https://github.com/cclally/QikTik-Configurator#readme",
+  "dependencies": {
+    "electron": "^37.2.1",
+    "python-shell": "^5.0.0"
+  }
+}

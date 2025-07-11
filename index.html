@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QikTik Configurator</title>
+</head>
+<body>
+    <h1>Welcome to QikTik Configurator</h1>
+    <input id="input" placeholder="Enter Config Parameter" />
+    <button onclick="runPython()">Run</button>
+    <script>
+        const { PythonShell } = require('python-shell');
+        function runPython() {
+            let input = document.getElementById('input').value;
+            PythonShell.run('config.py', {
+                args: [input]
+            }, function (err, results) {
+                if (err) console.error(err);
+                else alert(results);
+            });
+        }
+    </script>
+</body>
+</html>
