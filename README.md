@@ -7,5 +7,5 @@ QikTik Configurator is a streamlined desktop app built with Python and Electron 
 - Electron desktop wrapper for cross-platform support
 
 ## License
-Licensed under the [Apache License 2.0]([http://www.apache.org/licenses/LICENSE-2.0])
+Licensed under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0)
 See the LICENSE file for details.
